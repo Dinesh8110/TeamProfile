@@ -1,0 +1,180 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/teambg2"> <!-- Background image -->
+
+    <!-- Horizontal layout for team members -->
+    <TextView
+        android:id="@+id/teamName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="casual"
+        android:text="Meet Our Team Akatsuki"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+
+        <!-- Team Member 1 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/teamMember1Card"
+                android:layout_width="140dp"
+                android:layout_height="170dp"
+                app:cardCornerRadius="10dp"
+                android:elevation="4dp">
+
+
+                <ImageView
+                    android:id="@+id/teamMember1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="Team Member 1"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/dinesh" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/teamMember1Name"
+                android:layout_width="152dp"
+                android:layout_height="match_parent"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Dinesh student at TCE"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#FCFFFE"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/teamMember2Card"
+                android:layout_width="140dp"
+                android:layout_height="170dp"
+                app:cardCornerRadius="10dp"
+                android:elevation="4dp">
+
+
+                <ImageView
+                    android:id="@+id/teamMember2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="Team Member 2"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/amir" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/teamMember2Name"
+                android:layout_width="152dp"
+                android:layout_height="match_parent"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Amir student at TCE"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#FCFFFE"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/teamMember3Card"
+                android:layout_width="140dp"
+                android:layout_height="170dp"
+                app:cardCornerRadius="10dp"
+                android:elevation="4dp">
+
+
+                <ImageView
+                    android:id="@+id/teamMember3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="Team Member 3"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/kishore" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/teamMember3Name"
+                android:layout_width="152dp"
+                android:layout_height="match_parent"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="kishore student at TCE"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#FCFFFE"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

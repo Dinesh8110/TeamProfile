@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/teambg2"
+    android:padding="16dp">
+
+    <!-- About Section -->
+    <TextView
+        android:id="@+id/aboutTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="About Us"
+        android:textAlignment="center"
+        android:textColor="#FBFBFB"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/aboutDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="casual"
+        android:paddingTop="8dp"
+        android:text="Welcome to our Akatsuki! We are dedicated to providing the best service to our users..."
+        android:textColor="#F8F5F5"
+        android:textSize="20sp" />
+
+    <!-- Team Section -->
+    <TextView
+        android:id="@+id/teamTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:paddingTop="16dp"
+        android:text="Our Team"
+        android:textColor="#FAF8F8"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <!-- Team Members -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:id="@+id/member1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="12dp"
+            android:text="Dinesh - CEO\nDinesh is the visionary behind the application."
+            android:textColor="#FFFCFC"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/member2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:paddingTop="14dp"
+            android:paddingBottom="14dp"
+            android:text="Amirtha Velan - CTO\nAmir leads the development team and ensures cutting-edge technology."
+            android:textColor="#F8F5F5"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/member3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:paddingTop="14dp"
+            android:text="Kishore - Lead Developer\nKishore oversees all coding and software architecture."
+            android:textColor="#FAF7F7"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

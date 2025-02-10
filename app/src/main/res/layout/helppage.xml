@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/teambg2"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+    <!-- Help Us Title -->
+        <TextView
+            android:id="@+id/helpUsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Help Us"
+            android:paddingBottom="10dp"
+            android:textAlignment="center"
+            android:textColor="#FAF7F7"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+    <!-- Help Us Description -->
+        <TextView
+            android:id="@+id/helpDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="We are always looking for ways to improve and your feedback is crucial. Contact us if you have suggestions."
+            android:textColor="#F4EFEF"
+            android:textSize="20sp" />
+
+    <!-- Contact Section -->
+        <TextView
+            android:id="@+id/contactTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="10dp"
+            android:text="Contact Us"
+            android:textColor="#FBF8F8"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="10dp"
+            android:text="Email: akatsuki@application.com"
+            android:textColor="#FFFCFC"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="10dp"
+            android:text="Phone: +123-456-7890"
+            android:textColor="#F6F5F5"
+            android:textSize="20sp" />
+
+    <!-- Contribution Section -->
+        <TextView
+            android:id="@+id/contributeTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="10dp"
+            android:text="Ways You Can Help"
+            android:textColor="#FBF9F9"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/waysToHelp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="- Provide feedback on the app.\n- Contribute code or ideas.\n- Spread the word."
+            android:textColor="#F8F5F5"
+            android:textSize="20sp" />
+    </LinearLayout>
+</LinearLayout>
